@@ -229,7 +229,7 @@
 #### Водители:
 |dr_id|dr_email|dr_rating|crd_id|dr_avatar|dr_phone|dr_rightscat|dr_coord|cr_id|
 |-----|--------|---------|------|---------|--------|------------|--------|-----|
-|pk   |fk      |         |fk    |
+|pk   |      |         |fk    | | | | |fk|
 
 #### Карты:
 |crd_id|crd_number|crd_cvv|crd_name|crd_surname|
@@ -253,6 +253,8 @@
 |-----|--------|---------|--------|-------|
 |pk   |
 
+### Схема
+![Схема БД](./images/DBScheme.jpg)
 ## Список литературы
 
 [^1]: [Проект по сдаче автомобилей на базе Яндекс. Такси](https://damu.kz/poleznaya-informatsiya/biznes-plani/2020/1.%D0%91%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%20%D0%BF%D0%BB%D0%B0%D0%BD%20_%D1%82%D0%B0%D0%BA%D1%81%D0%B8.pdf)
