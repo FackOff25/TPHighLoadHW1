@@ -205,10 +205,10 @@
 |pk |
 
 #### Поездки:
-|id |driver|car|driver_rating|user|user_rating|price|start_addr|end_addr|date|
-|---|------|---|-------------|----|-----------|-----|----------|--------|----|
-|uid|uid   |uid|int          |uid |float      |float|string    |string  |Date|
-|pk |fk    |fk |             |fk|
+|id |driver|car|driver_rating|user|user_rating|price|start_addr|end_addr|date|status|
+|---|------|---|-------------|----|-----------|-----|----------|--------|----|------|
+|uid|uid   |uid|int          |uid |float      |float|string    |string  |Date|int   |
+|pk |fk    |fk |             |fk  |
 
 #### Сессии:
 |id |email |token |
